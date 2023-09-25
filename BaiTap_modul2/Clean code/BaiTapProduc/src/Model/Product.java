@@ -1,15 +1,14 @@
-package Controller;
+package Model;
 
-public class ProductController {
+public class Product {
     private int id;
     private String name;
-    private long price;
+    private double price;
     private String moTa;
 
-    public ProductController() {
+    public Product() {
     }
-
-    public ProductController(int id, String name, long price, String moTa) {
+    public Product(int id, String name, double price, String moTa) {
         this.id = id;
         this.name = name;
         this.price = price;
@@ -32,11 +31,11 @@ public class ProductController {
         this.name = name;
     }
 
-    public long getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(long price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 
@@ -50,7 +49,7 @@ public class ProductController {
 
     @Override
     public String toString() {
-        return "ProductController{" +
+        return "Product{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", price=" + price +

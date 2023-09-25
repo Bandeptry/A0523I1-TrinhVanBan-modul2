@@ -1,2 +1,7 @@
-package service;public class IStudentService {
+package service;
+
+public interface IStudentService {
+    void display();
+    void add();
+    void delete();
 }

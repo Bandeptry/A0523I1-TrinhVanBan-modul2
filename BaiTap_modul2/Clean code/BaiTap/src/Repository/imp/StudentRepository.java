@@ -3,8 +3,7 @@ package Repository.imp;
 import model.Student;
 import Repository.IStudentRepository;
 
-
-public abstract class StudentRepository implements IStudentRepository{
+public class StudentRepository implements IStudentRepository{
     private static Student[]  students = new Student[20];
     static {
         students[0]= new Student(1,"chanh1","C05");
@@ -12,7 +11,7 @@ public abstract class StudentRepository implements IStudentRepository{
         students[2]= new Student(3,"chanh3","C05");
     }
 
-    public static Student[] getStudents() {
+    public Student[] getListStudent() {
         return students;
     }
 
@@ -24,7 +23,6 @@ public abstract class StudentRepository implements IStudentRepository{
                 break;
             }
         }
-
     }
 
     @Override

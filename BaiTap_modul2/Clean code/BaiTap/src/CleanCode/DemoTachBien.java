@@ -1,3 +1,5 @@
+package CleanCode;
+
 public class DemoTachBien {
     public static String fizzBuzz(int number){
         boolean isFizz = number % 3 == 0;
