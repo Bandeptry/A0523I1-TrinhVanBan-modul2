@@ -1,2 +1,2 @@
-package PACKAGE_NAME;public class Fruit {
+public abstract class Fruit implements Edible{
 }

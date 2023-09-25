@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Tiger {
+public class Tiger extends Animal{
+    public String makeSound(){
+        return "Tiger: roarrrrr!";
+    }
 }

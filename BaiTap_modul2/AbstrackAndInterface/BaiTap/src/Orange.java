@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Orange {
+public class Orange extends Fruit {
+    public String howToEat(){
+        return "Orange could be juiced";
+    }
 }
