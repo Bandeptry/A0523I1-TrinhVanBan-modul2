@@ -1,3 +1,5 @@
+package DocFile;
+
 import java.io.*;
 
 public class ReadFileText {
